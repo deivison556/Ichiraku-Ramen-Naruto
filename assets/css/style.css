@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;;
+  font-family: "Lato", sans-serif;
 }
 
 /* Declaração de fontes e paleta de cores */
@@ -101,7 +101,7 @@ header {
   padding: 10px;
   border: none;
   font-size: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-top: 20px;
   color: white;
   background-color: var(--corSecundaria);
@@ -122,5 +122,69 @@ header {
 #main-boxImg img {
   width: 600px;
   height: 560px;
+}
+
+/* Section dos pratos principais - section 01 */
+.container-sessoes {
+  width: auto;
+  height: 674px; 
+}
+
+.container-sessoes .box-titulo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.container-sessoes #section-menuSubtitulo {
+  font-size: 48px;
+  text-align: center;
+  font-family: var(--fontPrincipal);
+  font-weight: bold;
+}
+
+.container-sessoes #section-paragrafoPratos {
+  font-size: 32px;
+  text-align: center;
+  font-family: var(--fontPrincipal);
+}
+
+.container-sessoes #section-paragrafoPratos span {
+  color: var(--corSecundaria);
+}
+
+/* Box das imagens do menu dos pratos */
+.container-sessoes #box-menuPratos {
+  height: 440px;
+}
+
+/* box dos pratos da sessão */
+.container-sessoes #box-menuPratos #box-imgPratos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 60px;
+}
+
+/* box dos pratos imagens */
+.container-sessoes #box-menuPratos #box-imgPratos img {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.container-sessoes #box-menuPratos #box-imgPratos .box-imgParagrafos {
+  display: flex;
+  flex-direction: column;
+  transition: 1.2s;
+}
+
+.container-sessoes #box-menuPratos #box-imgPratos .box-imgParagrafos p {
+  text-align: center;
+}
+
+.container-sessoes #box-menuPratos #box-imgPratos .box-imgParagrafos:hover {
+  transform: translateY(-10%);
+  transition: 1.2s;
 }
 
