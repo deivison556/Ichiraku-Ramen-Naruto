@@ -73,6 +73,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: -40px;
 }
 
 #container-mainPrincipal #main-conteudo {
@@ -109,14 +110,13 @@ header {
 }
 
 #container-mainPrincipal #main-conteudo #main-button:hover {
-  background-color: #ffd000;
+  background-color: #F28627;
 }
 
 /* box da imagem do naruto - main */
 #main-boxImg {
   width: 600px;
   margin-right: 10px;
-
 }
 
 #main-boxImg img {
@@ -128,6 +128,7 @@ header {
 .container-sessoes {
   width: auto;
   height: 674px; 
+  margin-bottom: -40px;
 }
 
 .container-sessoes .box-titulo {
@@ -135,7 +136,7 @@ header {
   margin-bottom: 20px;
 }
 
-.container-sessoes #section-menuSubtitulo {
+.container-sessoes .section-menuSubtitulo {
   font-size: 48px;
   text-align: center;
   font-family: var(--fontPrincipal);
@@ -186,5 +187,42 @@ header {
 .container-sessoes #box-menuPratos #box-imgPratos .box-imgParagrafos:hover {
   transform: translateY(-10%);
   transition: 1.2s;
+  filter: drop-shadow(0 0 10px black);
 }
 
+/* Section falando dos pratos - sessão 02 */
+.container-sessoes .box-titulo .section-menuSubtitulo span {
+  color: var(--corSecundaria);
+}
+
+#container-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+#container-feedback .box-sobrefeedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 900px;
+  padding: 10px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+}
+
+#container-feedback .box-sobrefeedback .icon-feeback {
+  width: 120px;
+  height: 150px;
+}
+
+
+.box-feedbackParagrafos {
+  font-size: 18px;
+  text-align: center;
+}
