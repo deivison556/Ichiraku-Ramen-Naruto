@@ -27,15 +27,22 @@ body {
 
 /* Cabeçalho de navegação - header */
 header {
-  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #fcd49a;
 }
 
 #header-navegation {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
+  width: 100%;
+  padding: 0px 30px;
 }
 
 #header-navegation #header-navegation-links {
@@ -79,7 +86,7 @@ header {
 #container-mainPrincipal #main-conteudo {
   width: 650px;
   padding: 10px;
-  margin-left: 30px;
+  margin-left: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,9 +100,16 @@ header {
 
 #container-mainPrincipal #main-conteudo #main-paragrafo {
   font-size: 25px;
-  text-align: center;
+  text-align: justify;
   font-family: var(--fontPrincipal);
 }
+
+#container-mainPrincipal #main-conteudo #main-paragrafo span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
 
 #container-mainPrincipal #main-conteudo #main-button {
   width: 200px;
@@ -110,13 +124,13 @@ header {
 }
 
 #container-mainPrincipal #main-conteudo #main-button:hover {
-  background-color: #F28627;
+  background-color: #f13c0f;
 }
 
 /* box da imagem do naruto - main */
 #main-boxImg {
   width: 600px;
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
 #main-boxImg img {
@@ -221,8 +235,20 @@ header {
   height: 150px;
 }
 
-
 .box-feedbackParagrafos {
   font-size: 18px;
   text-align: center;
+}
+
+/* Rodapé do site */
+footer {
+  background-color: rgb(51, 50, 50);
+  height: 55px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 18px;
 }
