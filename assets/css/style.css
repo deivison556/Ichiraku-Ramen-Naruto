@@ -279,3 +279,36 @@ footer p {
   font-size: 45px;
 }
 }
+
+/* Telas de 1024px */
+@media screen and (max-width: 1024px) {
+/* Conteúdo principal do site - main*/
+#container-mainPrincipal {
+  height: 600px;
+}
+
+#container-mainPrincipal #main-conteudo {
+  width: 520px;
+  height: 300px;
+  margin-left: 10px;
+}
+#container-mainPrincipal #main-conteudo #main-tituloPrincipal {
+  font-size: 40px;  
+}
+
+#container-mainPrincipal #main-conteudo #main-paragrafo {
+  font-size: 20px;
+}
+
+/* box da imagem do naruto - main */
+#main-boxImg {
+  width: 450px;
+  height: 500px;
+  margin-right: 10px;
+}
+
+#main-boxImg img {
+  width: 450px;
+  height: 500px;
+}
+}
