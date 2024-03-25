@@ -111,7 +111,6 @@ header {
   justify-content: center;
 } 
 
-
 #container-mainPrincipal #main-conteudo #main-button {
   width: 200px;
   padding: 10px;
@@ -310,5 +309,138 @@ footer p {
 #main-boxImg img {
   width: 450px;
   height: 500px;
+}
+}
+
+/* Telas de 834px */
+@media screen and (max-width: 834px) {
+/* Navegação dos links cabeçalho */
+#header-navegation #header-navegation-links {
+  width: 400px;
+}
+
+/* Conteúdo principal do site - main*/
+#container-mainPrincipal {
+  height: 550px;
+}
+
+#container-mainPrincipal #main-conteudo {
+  width: 400px;
+  height: 350px;
+}
+
+#container-mainPrincipal #main-conteudo #main-tituloPrincipal {
+  font-size: 35px;  
+}
+
+#container-mainPrincipal #main-conteudo #main-paragrafo {
+  font-size: 20px;
+}
+
+/* box da imagem do naruto - main */
+#main-boxImg {
+  width: 380px;
+  height: 350px;
+  margin-right: 10px;
+}
+
+#main-boxImg img {
+  width: 380px;
+  height: 350px;
+}
+
+/* Section dos pratos principais - section 01 */
+.container-sessoes {
+  width: auto;
+  height: 620px; 
+}
+
+.container-sessoes .section-menuSubtitulo {
+  font-size: 35px;
+}
+
+.container-sessoes #section-paragrafoPratos {
+  font-size: 28px;
+}
+
+/* Box das imagens do menu dos pratos */
+.container-sessoes #box-menuPratos {
+  height: 440px;
+}
+
+/* box dos pratos imagens */
+.container-sessoes #box-menuPratos #box-imgPratos img {
+  width: 260px;
+  height: 300px;
+}
+
+/* Section falando dos pratos - sessão 02 */
+#container-feedback .box-sobrefeedback {
+  width: auto;
+  height: auto;
+  margin: 20px;
+}
+
+#container-feedback .box-sobrefeedback .icon-feeback {
+  width: auto;
+  height: 150px;
+}
+
+.box-feedbackParagrafos {
+  font-size: 20px;
+}
+}
+
+/* Telas de 765px */
+@media screen and (max-width: 768px) {
+/* Conteúdo principal do site - main*/
+#container-mainPrincipal {
+  height: 550px;
+}
+
+#container-mainPrincipal #main-conteudo {
+  width: 360px;
+  height: 400px;
+}
+
+#container-mainPrincipal #main-conteudo #main-tituloPrincipal {
+  font-size: 30px;  
+}
+
+#container-mainPrincipal #main-conteudo #main-paragrafo {
+  font-size: 18px;
+  margin-bottom: -20px;
+}
+
+/* box da imagem do naruto - main */
+#main-boxImg {
+  width: 360px;
+  height: 350px;
+}
+
+#main-boxImg img {
+  width: 360px;
+  height: 350px;
+}
+
+/* Section dos pratos principais - section 01 */
+.container-sessoes .section-menuSubtitulo {
+  font-size: 30px;
+}
+
+.container-sessoes #section-paragrafoPratos {
+  font-size: 28px;
+}
+
+/* Box das imagens do menu dos pratos */
+.container-sessoes #box-menuPratos {
+  height: 440px;
+}
+
+/* box dos pratos imagens */
+.container-sessoes #box-menuPratos #box-imgPratos img {
+  width: 240px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 }
