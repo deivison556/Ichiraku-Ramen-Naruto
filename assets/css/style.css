@@ -53,7 +53,7 @@ header {
   justify-content: space-around;
 }
 
-#header-navegation #header-navegation img {
+#header-navegation img {
   width: 60px;
   height: 50px;
 }
@@ -443,4 +443,119 @@ footer p {
   height: 300px;
   background-color: rgba(0, 0, 0, 0.1);
 }
+}
+
+/* Telas de 428px */
+@media screen and (max-width: 428px) {
+/* Cabeçalho de navegação - header */
+#header-navegation {
+  padding: 0px 10px;
+}
+
+#header-navegation #header-navegation-links {
+  width: 350px;
+}
+
+#header-navegation #header-navegation-links a {
+  font-size: 20px;
+}
+/* Conteúdo principal do site - main*/
+#container-mainPrincipal {
+  height: 800px;
+  flex-direction: column;
+}
+
+#container-mainPrincipal #main-conteudo {
+  margin-top: 100px;
+  width: 360px;
+  height: 300px;
+}
+
+#container-mainPrincipal #main-conteudo #main-tituloPrincipal {
+  font-size: 35px;  
+}
+
+#container-mainPrincipal #main-conteudo #main-paragrafo {
+  font-size: 18px;
+  margin-bottom: -20px;
+}
+
+/* box da imagem do naruto - main */
+#main-boxImg {
+  display: block;
+  width: 350px;
+  height: 320px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#main-boxImg img {
+  width: 350px;
+  height: 320px;
+}
+
+/* Section dos pratos principais - section 01 */
+#container-pratos {
+  height: 870px;
+}
+
+.container-sessoes .section-menuSubtitulo {
+  font-size: 30px;
+}
+
+.container-sessoes #section-paragrafoPratos {
+  font-size: 20px;
+}
+
+/* Box das imagens do menu dos pratos */
+.container-sessoes #box-menuPratos {
+  height: 740px;
+}
+
+/* box dos pratos imagens */
+.container-sessoes #box-menuPratos #box-imgPratos {
+  flex-direction: column;
+  gap: 25px;
+} 
+
+.container-sessoes #box-menuPratos #box-imgPratos img {
+  width: 220px;
+  height: 200px;
+  margin-top: -10px;
+}
+
+/* Section falando dos pratos - sessão 02 */
+#container-feedbackgeral {
+  height: 900px;
+}
+
+#container-feedbackgeral #container-feedback {
+  height: 740px;
+}
+
+#container-feedback .box-sobrefeedback {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-feedback .box-sobrefeedback {
+  width: auto;
+  height: 340px;
+  margin: 20px;
+}
+
+#container-feedback .box-sobrefeedback .icon-feeback {
+  width: auto;
+  height: 150px;
+}
+
+.box-feedbackParagrafos {
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
 }
