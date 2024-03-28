@@ -96,6 +96,7 @@ header {
 
 #container-mainPrincipal #main-conteudo #main-tituloPrincipal {
   font-size: 65px;
+  margin-bottom: 10px;
   font-family: var(--fontSecundaria);
 }
 
@@ -162,6 +163,7 @@ header {
 .container-sessoes #section-paragrafoPratos {
   font-size: 32px;
   text-align: center;
+  padding: 10px;
   font-family: var(--fontPrincipal);
 }
 
@@ -370,8 +372,8 @@ footer p {
 
 /* box dos pratos imagens */
 .container-sessoes #box-menuPratos #box-imgPratos img {
-  width: 260px;
-  height: 300px;
+  width: 220px;
+  height: 280px;
 }
 
 /* Section falando dos pratos - sessão 02 */
@@ -439,8 +441,8 @@ footer p {
 
 /* box dos pratos imagens */
 .container-sessoes #box-menuPratos #box-imgPratos img {
-  width: 240px;
-  height: 300px;
+  width: 200px;
+  height: 240px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 }
@@ -459,6 +461,7 @@ footer p {
 #header-navegation #header-navegation-links a {
   font-size: 20px;
 }
+
 /* Conteúdo principal do site - main*/
 #container-mainPrincipal {
   height: 800px;
@@ -466,7 +469,7 @@ footer p {
 }
 
 #container-mainPrincipal #main-conteudo {
-  margin-top: 100px;
+  margin-top: 120px;
   width: 360px;
   height: 300px;
 }
@@ -496,11 +499,12 @@ footer p {
 
 /* Section dos pratos principais - section 01 */
 #container-pratos {
-  height: 870px;
+  height: 950px;
 }
 
 .container-sessoes .section-menuSubtitulo {
-  font-size: 30px;
+  font-size: 28px;
+  padding: 10px;
 }
 
 .container-sessoes #section-paragrafoPratos {
@@ -547,15 +551,64 @@ footer p {
 
 #container-feedback .box-sobrefeedback .icon-feeback {
   width: auto;
-  height: 150px;
+  height: 140px;
 }
 
 .box-feedbackParagrafos {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 footer {
   margin-top: 40px;
 }
 
+footer p {
+  font-size: 14px;
 }
+}
+
+/* Telas de 375px */ 
+@media screen and (max-width: 375px) {
+/* Cabeçalho de navegação - header */
+#header-navegation img {
+  display: none;
+}
+
+/* Conteúdo principal do site - main*/
+#container-mainPrincipal #main-conteudo {
+  margin-top: 100px;
+  width: 320px;
+  height: 350px;
+}
+
+#container-mainPrincipal #main-conteudo #main-tituloPrincipal {
+  font-size: 30px;  
+}
+
+#container-mainPrincipal #main-conteudo #main-paragrafo {
+  font-size: 16px;
+}
+
+/* box da imagem do naruto - main */
+#main-boxImg {
+  width: 300px;
+  height: 320px;
+  margin: 30px auto;
+}
+
+#main-boxImg img {
+  width: 300px;
+  height: 320px;
+}
+}
+
+/* box dos pratos imagens */
+.container-sessoes #box-menuPratos #box-imgPratos {
+  gap: 40px;
+} 
+
+/* Telas de 320px */
+@media screen and (max-width: 320px) {
+
+}
+
