@@ -237,11 +237,13 @@ header {
 #container-feedback .box-sobrefeedback .icon-feeback {
   width: 120px;
   height: 150px;
+  padding: 8px;
 }
 
 .box-feedbackParagrafos {
   font-size: 18px;
   text-align: center;
+
 }
 
 /* Rodapé do site */
@@ -609,6 +611,54 @@ footer p {
 
 /* Telas de 320px */
 @media screen and (max-width: 320px) {
+/* Cabeçalho de navegação - header */
+#header-navegation #header-navegation-links a {
+  font-size: 1.2rem;
+}
 
+/* Conteúdo principal do site - main*/
+#container-mainPrincipal #main-conteudo {
+  margin-top: 100px;
+  width: 280px;
+  height: 350px;
+}
+
+#container-mainPrincipal #main-conteudo #main-tituloPrincipal {
+  font-size: 25px;  
+}
+
+#container-mainPrincipal #main-conteudo #main-paragrafo {
+  font-size: 16px;
+}
+
+/* box da imagem do naruto - main */
+#main-boxImg {
+  width: 280px;
+  height: 320px;
+  margin: 30px auto;
+}
+
+#main-boxImg img {
+  width: 280px;
+  height: 320px;
+}
+
+/* Section falando dos pratos - sessão 02 */
+#container-feedback .box-sobrefeedback {
+  margin: 0px 20px 40px 20px;
+}
+
+.box-feedbackParagrafos {
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 14px;
+  padding: 10px;
+}
 }
 
